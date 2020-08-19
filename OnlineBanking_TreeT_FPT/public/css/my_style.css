@@ -1,0 +1,29 @@
+/**
+CSS is for general use of pages
+ */
+/*CSS Header Begin*/
+.header .container .row .col-lg-3 .header__logo a p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    color: #88C417;
+    letter-spacing: 1px;
+}
+.header .container .row .col-lg-3 .header__logo a p .logo_header {
+    width: 50px;
+    margin: 0 auto;
+}
+.header .container .row .col-lg-3 .header__logo a p .logo_letter_banking {
+    color: #223060;
+}
+/*CSS Header Eng*/
+
+/*CSS Home Begin*/
+
+.hero_section_home .container .row .col-lg-7 {
+    background-image: linear-gradient(to right, #223060, #88C417);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(179,179,179,0.33);
+}
+/*CSS Home End*/
