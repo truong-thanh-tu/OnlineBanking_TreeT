@@ -586,7 +586,8 @@ CSS is for general use of pages
     font-size: 150px;
     color: #88C417;
 }
-.success .main .mainSuccess p{
+
+.success .main .mainSuccess p {
     font-size: 18px;
     font-family: "Lato", sans-serif;
     color: #5c5c5c;
@@ -594,8 +595,27 @@ CSS is for general use of pages
     line-height: 25px;
     margin: 0 0 15px 0;
 }
+
 .success .main .mainSuccess p span {
     font-weight: bold;
     color: #88C417;
 }
+
 /*CSS Success  End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Detail Transfer Begin*/
+.detailTransfers .main {
+    height: 800px;
+}
+.detailTransfers .main .container .title h5 {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px; font-size: 36px;
+    margin-bottom: 30px; margin-top: 30px;
+}
+/*CSS Detail Transfer End*/

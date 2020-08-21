@@ -52,7 +52,7 @@ Route::group(['prefix'=>'account'],function (){
 });
 Route::group(['prefix'=>'personal'],function (){
     Route::group(['prefix'=>'account'],function (){
-        Route::get('account',[
+        Route::get('',[
             'as'=>'List_Account',
             'uses'=>'InsideParController\AccountController@getListAccount'
         ]);
@@ -85,6 +85,16 @@ Route::group(['prefix'=>'personal'],function (){
         Route::get('success',[
             'as'=>'Success',
             'uses'=> 'InsideParController\TransfersController@getSuccess'
+        ]);
+    });
+    Route::group(['prefix'=>'history'],function (){
+        Route::get('',[
+            'as'=>'History',
+            'uses'=> 'InsideParController\HistoryController@getHistory'
+        ]);
+        Route::get('detail_transfer/{id}',[
+            'as'=>'Detail_Transfer',
+            'uses'=> 'InsideParController\HistoryController@getDetailTransfer'
         ]);
     });
 });

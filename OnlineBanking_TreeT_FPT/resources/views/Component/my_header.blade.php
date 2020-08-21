@@ -16,10 +16,10 @@
             <div class="header__nav">
                 <nav class="header__menu">
                     <ul>
-                        <li class="{{ (request()->segment(1) == 'account') ? 'active' : '' }}"><a
+                        <li class="{{ (request()->segment(2) == 'account') ? 'active' : '' }}"><a
                                 href="{{Route('List_Account') }}">Account</a>
                         </li>
-                        <li class="{{ (request()->segment(1) == 'about') ? 'active' : '' }}"><a
+                        <li class="{{ (request()->segment(2) == 'transfers') ? 'active' : '' }}"><a
                                 href="{{Route('Transfers') }}">Transfers</a>
                             <ul class="dropdown bg-light shadow">
                                 <li>
@@ -31,10 +31,10 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="{{ (request()->segment(1) == 'services') ? 'active' : '' }}"><a
-                                href="{{Route('Services') }}">Transaction History</a>
+                        <li class="{{ (request()->segment(2) == 'history') ? 'active' : '' }}"><a
+                                href="{{Route('History') }}">Transaction History</a>
                         </li>
-                        <li class="{{ (request()->segment(1) == 'blog') ? 'active' : '' }}"><a
+                        <li class="{{ (request()->segment(2) == 'report') ? 'active' : '' }}"><a
                                 href="{{Route('Blog') }}">Overview Report</a>
                         </li>
 

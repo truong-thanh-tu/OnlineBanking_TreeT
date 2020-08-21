@@ -38,7 +38,7 @@
                     <h4>Account details </h4>
                 </div>
                 <div class="informationCustomer">
-                    <table class="table text-center p-3">
+                    <table class="table w-100 text-center p-3">
                         <tr>
                             <th>Name Account</th>
                             <td>Nguyen Van A</td>
@@ -65,7 +65,7 @@
                         </tr>
                     </table>
                     <div class="back">
-                        <a class="btn btn-primary" href="{{ Route('List_Account') }}">Back</a>
+                        <a class="btn" href="{{ Route('List_Account') }}" role="button" style=" margin-top: 20px;letter-spacing: 1px; border-radius: 2px;background: #88C417;display: inline-block; font-size: 15px; padding: 14px 40px 12px;  color: #ffffff;text-transform: uppercase; font-weight: 700; ">BACK</a>
                     </div>
                 </div>
             </div>
