@@ -2,10 +2,14 @@
     <div class="row">
         <div class="col-lg-3">
             <div class="header__logo">
-                <a href="./index.html"><p
-                        style="">
-                            <span><img  class="logo_header" src="{{ asset('img/logo-icon/Logo.png') }}" alt="Image Logo"></span>Online<span class="logo_letter_banking">Banking</span>
-                    </p></a>
+                <a href="{{ Route('Home') }}">
+                    <p>
+                        <span>
+                            <img class="logo_header" src="{{ asset('img/logo-icon/Logo.png') }}" alt="Image Logo">
+                        </span>Online
+                        <span class="logo_letter_banking">Banking</span>
+                    </p>
+                </a>
             </div>
         </div>
         <div class="col-lg-9">

@@ -1,8 +1,7 @@
-@extends('master')
+@extends('Layout.master')
 @section('main')
     <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
+    <div class="offcanvas-menu">
         @include('Component.offcanvas-menu')
     </div>
     <!-- Offcanvas Menu End -->
@@ -21,8 +20,8 @@
                     <div class="hero__text">
                         <h2>Find The Best Monthly Payment</h2>
                         <p>Apply for our business loan in minutes, without painful</p>
-                        <a href="#" class="primary-btn">Login</a>
-                        <a href="#" class="primary-btn howit-btn">Sigin</a>
+                        <a href="{{ Route('Login') }}" class="primary-btn">Login</a>
+                        <a href="{{ Route('Register') }}" class="primary-btn howit-btn">Sigin</a>
                     </div>
                 </div>
 

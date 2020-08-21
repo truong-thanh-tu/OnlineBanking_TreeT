@@ -1,8 +1,7 @@
-@extends('master')
+@extends('Layout.master')
 @section('main')
     <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
+    <div class="offcanvas-menu">
         @include('Component.offcanvas-menu')
     </div>
     <!-- Offcanvas Menu End -->
@@ -14,7 +13,7 @@
     <!-- Header Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb/breadcrumb-bg.jpg">
+    <div class="breadcrumb-option set-bg" data-setbg="{{ asset('img/breadcrumb/breadcrumb-bg.jpg') }}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

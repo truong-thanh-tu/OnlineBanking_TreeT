@@ -21,7 +21,7 @@
                         <h2>Account</h2>
                         <div class="breadcrumb__links">
                             <a href="./index.html">Account</a>
-                            <span>Accounts</span>
+                            <span>Information Accounts</span>
                         </div>
                     </div>
                 </div>
@@ -31,42 +31,134 @@
     <!-- Breadcrumb Section End -->
 
     <!-- List Of Account Section Begin -->
-<div class="listOfAccount">
-    <div class="main">
-        <div class="container">
-            <table class="table">
-                <thead class="thead-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-                </tbody>
-            </table>
+    <div class="listOfAccount">
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tillet">
+                            <h4>Bank Accounts Of This Login Account</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="search">
+                            <form class="form-inline">
+                                <button class="btn  my-2 my-sm-0" type="submit">Search</button>
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                       aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <table class="table text-center">
+                        <thead class="text-uppercase">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Bank Account</th>
+                            <th scope="col">Balance</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">View</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        <tr>
+                            <th scope="col">1</th>
+                            <th scope="col">Nguyen Van A</th>
+                            <th scope="col">123456789</th>
+                            <th scope="col">1.200.300 VND</th>
+                            <th scope="col">Active</th>
+                            <th scope="col"><a href="{{ Route('Detail_Account',1) }}">View Detail</a></th>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-</div>
     <!-- List Of Account Section End -->
 
     <!-- Footer Section Begin -->

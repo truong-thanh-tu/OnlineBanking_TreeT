@@ -1,8 +1,8 @@
-@extends('master')
+@extends('Layout.master')
 @section('main')
     <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
+
+    <div class="offcanvas-menu">
         @include('Component.offcanvas-menu')
     </div>
     <!-- Offcanvas Menu End -->
@@ -55,7 +55,7 @@
                     <div class="contact__address__item">
                         <h4>New York Office</h4>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i> 917 Atlantic Lane, Strongsville, <br />NY, United State
+                            <li><i class="fa fa-map-marker"></i> 917 Atlantic Lane, Strongsville, <br/>NY, United State
                             </li>
                             <li><i class="fa fa-phone"></i> (+12) 345-678-910</li>
                             <li><i class="fa fa-envelope"></i> newyork.info@colorlib.com</li>
@@ -66,7 +66,7 @@
                     <div class="contact__address__item">
                         <h4>New Jersey Office</h4>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i> 171 Logan Lane, Union City <br />NJ, United Statee</li>
+                            <li><i class="fa fa-map-marker"></i> 171 Logan Lane, Union City <br/>NJ, United Statee</li>
                             <li><i class="fa fa-phone"></i> (+12) 345-678-910</li>
                             <li><i class="fa fa-envelope"></i> newjersey.info@colorlib.com</li>
                         </ul>
@@ -76,8 +76,9 @@
                     <div class="contact__address__item">
                         <h4>Washington Office</h4>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i> 9 East Bear Hill St. Great Falls <br />Washington,
-                                United State</li>
+                            <li><i class="fa fa-map-marker"></i> 9 East Bear Hill St. Great Falls <br/>Washington,
+                                United State
+                            </li>
                             <li><i class="fa fa-phone"></i> (+12) 345-678-910</li>
                             <li><i class="fa fa-envelope"></i> washington.info@colorlib.com</li>
                         </ul>

@@ -1,6 +1,10 @@
 /**
 CSS is for general use of pages
  */
+
+/**
+=========================================================================
+ */
 /*CSS Header Begin*/
 .header .container .row .col-lg-3 .header__logo a p {
     font-size: 25px;
@@ -9,14 +13,43 @@ CSS is for general use of pages
     color: #88C417;
     letter-spacing: 1px;
 }
+
 .header .container .row .col-lg-3 .header__logo a p .logo_header {
     width: 50px;
     margin: 0 auto;
 }
+
 .header .container .row .col-lg-3 .header__logo a p .logo_letter_banking {
     color: #223060;
 }
+
 /*CSS Header Eng*/
+
+/**
+=========================================================================
+ */
+
+/*CSS Offcanvas Menu Begin */
+.offcanvas-menu-wrapper .offcanvas__logo a p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    color: #88C417;
+    letter-spacing: 1px;
+}
+
+.offcanvas-menu-wrapper .offcanvas__logo a p span img {
+    width: 50px;
+}
+
+.offcanvas-menu-wrapper .offcanvas__logo a p .baking_letter {
+    color: #223060;
+}
+
+/*CSS Offcanvas Menu End */
+/*
+=========================================================================
+*/
 
 /*CSS Home Begin*/
 
@@ -24,6 +57,545 @@ CSS is for general use of pages
     background-image: linear-gradient(to right, #223060, #88C417);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 5px 5px 3px rgba(179,179,179,0.33);
+    box-shadow: 5px 5px 3px rgba(179, 179, 179, 0.33);
 }
+
 /*CSS Home End*/
+
+/*
+=========================================================================
+*/
+/*CSS Login Begin*/
+.login {
+    height: 600px;
+    width: 100%;
+}
+
+.login .container .main {
+    width: 400px;
+    height: 500px;
+    margin: 150px auto 0 auto;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px 0 20px;
+}
+
+
+.login .container .main .logo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 100px;
+
+}
+
+.login .container .main .user label {
+    margin-top: 75px;
+}
+
+.login .container .main .user, .pass label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: black;
+    font-family: "Lato", sans-serif !important;
+}
+
+.login .container .main input {
+    border: none;
+    box-shadow: 0px 10px 30px rgba(50, 50, 50, 0.1);
+}
+
+.login .container .main .submit_login {
+    text-align: center;
+}
+
+.login .container .main .submit_login input {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 40px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #88C417;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.login .container .main p {
+    font-family: "Lato", sans-serif !important;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login .container .main .message p a {
+    color: #3e549a;
+}
+
+.login .container .main .message a:hover {
+    color: #88C417 !important;
+}
+
+/*CSS Login End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Register Begin*/
+
+.Register {
+    height: 900px;
+    width: 100%;
+}
+
+.Register .container .main {
+    width: 400px;
+    height: 700px;
+    margin: 150px auto 0 auto;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px 0 20px;
+}
+
+.Register .container .main .img_register img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 100px;
+}
+
+.Register .container .main .user label {
+    margin-top: 75px;
+}
+
+.Register .container .main label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: black;
+    font-family: "Lato", sans-serif !important;
+}
+
+.Register .container .main input {
+    border: none;
+    box-shadow: 0px 10px 30px rgba(50, 50, 50, 0.1);
+}
+
+.Register .container .main .submit_register {
+    text-align: center;
+}
+
+.Register .container .main .submit_register input {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 40px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #88C417;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+.Register .container .main p {
+    font-family: "Lato", sans-serif !important;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.Register .container .main .message p a {
+    color: #3e549a;
+}
+
+.Register .container .main .message a:hover {
+    color: #88C417 !important;
+}
+
+/*CSS Register Begin*/
+
+/*
+=========================================================================
+*/
+
+/*CSS  Information Account Begin*/
+.listOfAccount .main {
+    margin: 50px auto;
+
+}
+
+.listOfAccount .main .container .row .col-lg-12 .tillet h4 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.listOfAccount .main .container .row .col-lg-12 .search {
+    margin: 30px 0 30px 0;
+}
+
+.listOfAccount .main .container .row .col-lg-12 .search button {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 40px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #88C417;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.listOfAccount .main .container .row .col-lg-12 .search input {
+    display: block;
+    width: 300px;
+    height: 50px;
+    outline: none;
+
+}
+
+.listOfAccount .main .container .row .col-lg-12 .search input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #182143;
+    opacity: 0.8;
+}
+
+.listOfAccount .main .container .row table {
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 10px 30px rgba(50, 50, 50, 0.1);
+}
+
+.listOfAccount .main .container .row table tbody tr:hover {
+    background-color: #ececec;
+}
+
+.listOfAccount .main .container .row table thead {
+    background-color: #182143;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.listOfAccount .main .container .row table a {
+    color: #3e549a;
+}
+
+.listOfAccount .main .container .row table a:hover {
+    color: #88C417 !important;
+}
+
+/*CSS  Information Account End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Detai Account Begin*/
+.Detail_Account {
+    height: 600px;
+    width: 100%;
+}
+
+.Detail_Account .main .tillet h4 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.Detail_Account .main table {
+    width: 600px;
+    background: white;
+    margin: 30px auto;
+    box-shadow: 0px 10px 30px rgba(50, 50, 50, 0.1);
+    border-radius: 10px;
+
+}
+
+.Detail_Account .main table td {
+    border-top: 0 !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.Detail_Account .main table th {
+    border-top: 0 !important;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/*CSS Detai Account End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Transfers Begin*/
+
+
+.Transfers .main .container .row .col-lg-12 .tillet h5 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Transfers .main .container .row .col-lg-12 table {
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 10px 30px rgba(50, 50, 50, 0.1);
+    margin-bottom: 30px;
+}
+
+.Transfers .main .container .row .col-lg-12 table thead tr {
+    background-color: #182143;
+    color: white;
+}
+
+/*CSS Transfers Begin*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Internal Transfers Begin*/
+.internalTransfers .main {
+    padding: 30px;
+}
+
+.internalTransfers .main .container .row .col-lg-12 .tillet h4 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.internalTransfers .main .container form .container .row {
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 30px auto;
+}
+
+.internalTransfers .main .container form .container .row .tillet h5 {
+    color: black;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.internalTransfers .main .container form .container .row .formAccount table {
+    margin-left: 100px;
+}
+
+.internalTransfers .main .container form .container .row table th {
+    font-weight: bold;
+    border-top: none !important;
+    font-size: 15px;
+    color: #323232;
+    margin-bottom: 12px;
+    margin-top: 35px
+}
+
+.internalTransfers .main .container form .container .row table td {
+    border-top: none !important;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: #5c5c5c;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+.internalTransfers .main .container form .container .row .toAccount table {
+    margin-left: 100px;
+}
+
+.internalTransfers .main .container form .container .row .toAccount table td {
+
+}
+
+.internalTransfers .main .container form .container .row .paymentDetails table {
+    margin-left: 100px;
+}
+
+.internalTransfers .main .container form .container .row .paymentDetails table td {
+    border-top: none !important;
+
+}
+
+.internalTransfers .main .container form .container .row table input {
+    height: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+}
+
+.internalTransfers .main .container form button {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 40px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #88C417;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+/*CSS Internal Transfers End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS External Transfers Begin*/
+.externalTransfers .main {
+    padding: 30px;
+}
+
+.externalTransfers .main .container .row .col-lg-12 .tillet h4 {
+    font-family: "Lato", sans-serif !important;
+    font-weight: 700;
+    color: #323232;
+    line-height: 46px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.externalTransfers .main .container form .container .row {
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 30px auto;
+}
+
+.externalTransfers .main .container form .container .row .tillet h5 {
+    color: black;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.externalTransfers .main .container form .container .row .formAccount table {
+    margin-left: 100px;
+}
+
+.externalTransfers .main .container form .container .row table th {
+    font-weight: bold;
+    border-top: none !important;
+    font-size: 15px;
+    color: #323232;
+    margin-bottom: 12px;
+    margin-top: 35px;
+}
+
+.externalTransfers .main .container form .container .row table td {
+    border-top: none !important;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    color: #5c5c5c;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+
+.externalTransfers .main .container form .container .row .toAccount table {
+    margin-left: 100px;
+}
+
+.externalTransfers .main .container form .container .row .toAccount table td {
+
+}
+
+.externalTransfers .main .container form .container .row .paymentDetails table {
+    margin-left: 100px;
+}
+
+.externalTransfers .main .container form .container .row .paymentDetails table td {
+    border-top: none !important;
+
+}
+
+.externalTransfers .main .container form .container .row table input {
+    height: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+}
+
+.externalTransfers .main .container form button {
+    display: inline-block;
+    font-size: 15px;
+    padding: 14px 40px 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #88C417;
+    border-radius: 2px;
+    letter-spacing: 1px;
+}
+
+/*CSS External Transfers End*/
+
+/*
+=========================================================================
+*/
+
+/*CSS Success  Begin*/
+.success .main .mainSuccess {
+    width: 600px;
+    height: 300px;
+    margin: 60px auto;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    text-align: center;
+    padding: 20px
+}
+
+.success .main .mainSuccess .icon i {
+    font-size: 150px;
+    color: #88C417;
+}
+.success .main .mainSuccess p{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: #5c5c5c;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+}
+.success .main .mainSuccess p span {
+    font-weight: bold;
+    color: #88C417;
+}
+/*CSS Success  End*/
